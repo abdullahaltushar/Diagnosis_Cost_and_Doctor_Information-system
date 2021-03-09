@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    background-color: #D03237;
+    font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    float: right;
+    background-color: #D03237;
+    color: white;
+    padding: 6px 10px;
+    width: 120px;
+    border: none;
+    margin-top: 1px;
+    margin-right: 8px;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: white solid 2px;
+    transition: 0.3s;
+}
+
+.searchbar::placeholder {
+    color: white;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    /* transition: 0.2s; */
+}
+
+.searchbar:focus {
+    width: 400px;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+    /* Stops the input box from inheriting the styling from the inputs on the request form */
+    border-bottom: white solid 2px;
+    outline: none;
+}
+
+.btn-search {
+    cursor: pointer;
+    color: white;
+    text-decoration: none !important;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+.gv{
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: #1e7e34;
+}
+.table{
+    width: 800px;
+    border: 1px solid black;
+
+}
